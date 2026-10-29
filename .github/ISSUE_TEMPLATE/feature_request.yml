@@ -1,0 +1,26 @@
+name: 功能建议
+description: 描述使用场景、当前困难和期待的改进
+title: "[建议] "
+body:
+  - type: markdown
+    attributes:
+      value: 请先搜索已有建议。内容将公开展示，请勿附上敏感配置或个人信息。
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景与当前困难
+      description: 你在完成什么任务？现有操作在哪一步不方便？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 期待的改进
+      description: 希望怎样操作、得到什么结果？
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 目前的替代办法（可选）
+      description: 你现在怎样完成这件事？为什么仍需要改进？
